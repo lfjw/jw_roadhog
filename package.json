@@ -1,0 +1,25 @@
+{
+  "name": "jw_roadhog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "roadhog build",
+    "dev": "roadhog server",
+    "test": "roadhog test"
+  },
+  "bin": {
+    "zfroadhog": "./bin/zfroadhog.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "cross-spawn": "^7.0.1",
+    "jest": "^24.9.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.2"
+  }
+}
